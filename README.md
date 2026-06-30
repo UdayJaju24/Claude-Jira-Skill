@@ -9,7 +9,7 @@ A powerful Claude Code skill that manages Jira tickets with code changes, commen
 **Quick install:**
 ```bash
 # Clone the repo
-git clone https://gitlab.cee.redhat.com/ujaju/Jira-Claude-Skill.git
+git clone https://github.com/UdayJaju24/Claude-Jira-Skill.git
 cd Jira-Claude-Skill
 
 # Install globally
