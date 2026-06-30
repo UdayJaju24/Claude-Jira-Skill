@@ -7,7 +7,7 @@ This skill is designed to be installed **globally** so it works across all your 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://gitlab.cee.redhat.com/ujaju/Jira-Claude-Skill.git
+git clone https://github.com/UdayJaju24/Claude-Jira-Skill.git
 cd Jira-Claude-Skill
 ```
 
@@ -44,8 +44,8 @@ Add these env variables (merge with existing content):
 ```json
 {
   "env": {
-    "JIRA_BASE_URL": "https://redhat.atlassian.net",
-    "JIRA_EMAIL": "your-email@redhat.com",
+    "JIRA_BASE_URL": "https://<company>.atlassian.net",
+    "JIRA_EMAIL": "your-email@gmail.com",
     "JIRA_API_TOKEN": "your-api-token-here",
     "GITHUB_TOKEN": "",
     "GITLAB_TOKEN": ""
@@ -60,8 +60,8 @@ Add these env variables (merge with existing content):
 ```json
 {
   "env": {
-    "JIRA_BASE_URL": "https://redhat.atlassian.net",
-    "JIRA_EMAIL": "ujaju@redhat.com",              ← Your Red Hat email
+    "JIRA_BASE_URL": "https://<company>.atlassian.net",
+    "JIRA_EMAIL": "<username>@gmail.com",              ← Your Red Hat email
     "JIRA_API_TOKEN": "ATATTxxxxxxxxxxxxxxxx",     ← Your Jira token
     "GITHUB_TOKEN": "",                             ← Optional (leave empty if not using GitHub)
     "GITLAB_TOKEN": "glpat_xxxxxxxxxxxxx"          ← Your GitLab token
@@ -141,7 +141,7 @@ Your tokens in `~/.claude/settings.json` remain safe (not overwritten)!
 
 **The skill is already configured for Red Hat Jira:**
 
-The template includes `JIRA_BASE_URL: "https://redhat.atlassian.net"` so all Red Hat users can use it as-is.
+The template includes `JIRA_BASE_URL: "https://<company>.atlassian.net"` so all Red Hat users can use it as-is.
 
 **For projects with a different Jira instance:**
 
