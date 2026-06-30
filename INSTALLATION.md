@@ -61,7 +61,7 @@ Add these env variables (merge with existing content):
 {
   "env": {
     "JIRA_BASE_URL": "https://<company>.atlassian.net",
-    "JIRA_EMAIL": "<username>@gmail.com",              ← Your Red Hat email
+    "JIRA_EMAIL": "<username>@gmail.com",              ← Your company email
     "JIRA_API_TOKEN": "ATATTxxxxxxxxxxxxxxxx",     ← Your Jira token
     "GITHUB_TOKEN": "",                             ← Optional (leave empty if not using GitHub)
     "GITLAB_TOKEN": "glpat_xxxxxxxxxxxxx"          ← Your GitLab token
