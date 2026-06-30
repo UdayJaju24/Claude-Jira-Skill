@@ -1,0 +1,9 @@
+{
+  "env": {
+    "JIRA_BASE_URL": "https://redhat.atlassian.net",
+    "JIRA_EMAIL": "your-email@redhat.com",
+    "JIRA_API_TOKEN": "your-api-token-here",
+    "GITHUB_TOKEN": "",
+    "GITLAB_TOKEN": ""
+  }
+}
